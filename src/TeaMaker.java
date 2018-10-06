@@ -1,3 +1,5 @@
+
+
 /*
  *    Copyright (c) The League of Amazing Programmers 2013-2017
  *    Level 1
@@ -5,6 +7,14 @@
 
 public class TeaMaker {
 
+	public static void main(String[] args) {
+		
+		TeaBag teabaG = new TeaBag("chocolate");
+		Kettle kettlE = new Kettle();
+		Cup cuP=new Cup();
+		kettlE.boil();
+		cuP.makeTea(teabaG, kettlE.getWater());
+	}
 	/* Figure out how to make a cup of tea using the classes below */
 
 }

@@ -21,11 +21,14 @@ public class minion {
 	
 	
 	minion(String name, int eyes, String color, String master){
-		
+		this.name=name;
+		this.eyes=eyes;
+		this.color=color;
+		this.master=master;
 	}
 	
-	void setName(String name){
-		name=name;
+	void setName(String naem){
+		name=naem;
 	}
 	
 	String getName(){
